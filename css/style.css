@@ -138,7 +138,7 @@ body{
 .tour-packages,
 #adventure-content .main-header{
     font-family: 'STAATLICHES';
-    color: #af5243;
+    color: #d9664c;
     font-size: 55px;
 }
 
@@ -207,8 +207,8 @@ body{
     text-align: inherit !important;
 }
 
-.packages-carousel h5,
-#adventure-content h5{
+.packages-carousel h5
+{
     font-size: 16px;
     font-family: 'sourcecodepro';
 }
@@ -241,6 +241,13 @@ body{
     background-position: center;
     display: flex;
     flex-direction: column;
+}
+#adventure-content{
+    background-image: url(../icons/branchout-badge.svg);
+    background-repeat: no-repeat;
+    background-size: 75% 76%;
+    background-attachment: inherit;
+    background-position: 227% -89%;
 }
 /* Small devices */
 @media (max-width: 768px) { 

@@ -243,12 +243,14 @@ body{
     flex-direction: column;
 }
 #adventure-content{
-    background-image: url(../icons/branchout-badge.svg);
+    background-image: linear-gradient(rgba(241,247,226,0.3),rgba(241,247,226,0.3)), url(../icons/branchout-badge.svg);
     background-repeat: no-repeat;
-    background-size: 75% 76%;
-    background-attachment: inherit;
-    background-position: 227% -89%;
+    background-size: 35% 35%;
+    background-attachment: fixed;
+    background-position: 110% 17%;
 }
+
+
 /* Small devices */
 @media (max-width: 768px) { 
     #cover{

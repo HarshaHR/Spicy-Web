@@ -19,6 +19,7 @@
 body{
     font-family: 'inter-regular';
     background-color: #f7f1e2;
+    overflow-x: hidden;
 }
 .nav-link{
     text-decoration: none;

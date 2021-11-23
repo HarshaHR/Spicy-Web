@@ -83,7 +83,7 @@ body{
 
 .cover-col.incredible-places::before {    
     content: "";
-    background-image: url(../images/_MG_7346.jpg);
+    background-image: url(../images/MG7346.jpg);
     background-size: 100% 100%;
     background-position: center;
     position: absolute;
